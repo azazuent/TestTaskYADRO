@@ -36,7 +36,8 @@ bool TestCase::test()
 
     std::cout << "Testing " << testCasePath << '\n';
     std::cout << std::setw(70) << std::setfill('_') << '\n';
-
+    
+    //https://stackoverflow.com/a/46831649
     STARTUPINFO si;
     PROCESS_INFORMATION pi; // The function returns this
     ZeroMemory(&si, sizeof(si));
