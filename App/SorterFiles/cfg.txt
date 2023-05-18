@@ -1,0 +1,6 @@
+1000 read delay in microseconds
+1000 write delay in microseconds
+1000 rewind delay in microseconds
+1000 shift delay in microseconds
+0 chunk size
+1 clean files?
